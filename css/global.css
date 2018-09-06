@@ -1,0 +1,1254 @@
+/*************************** RESET */
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html{ font-size: 100%; padding: 0; margin: 0; height: 100%; background: #f7f7f7;}
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    /*src: url(font/gobCL_Regular.otf);*/
+}
+@font-face {
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    /*src: url(font/gobCL_Bold.otf);*/
+}
+@font-face {
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    /*src: url(font/gobCL_Light.otf);*/
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	/*font-family: 'gobCLRegular', Arial, Helvetica, sans-serif;*/
+	font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+	font-size: 80.5%;
+	line-height: 1.4;
+	/*background: url("../images/bg_new.png") repeat scroll 0 0 #F5F5F5;*/
+}
+
+
+.break {
+    clear: both;
+}
+
+div#content-header {
+    background: #ffffff;
+    width: 1208px;
+	height:auto;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+div#content-wrapper {
+    background: #ffffff;
+    width: 1188px;
+	height:auto;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;		
+}
+
+header h1{
+    /*font-family: 'gobCL_Bold';*/
+	font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    font-size: 58px;
+    color: #666;
+    margin: 0px;
+    margin-bottom: 8px;
+    text-indent: 0;
+}
+
+h2{
+    padding-top: 30px;
+    /*font-family: 'gobCL_Bold';*/
+	font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    color: #666;
+}
+
+h3{
+    width: /*230px*/440px;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    margin: -44px 0 0 900px;
+    float: right;
+    padding: 0px;
+    text-align: center;
+    /*font-family: 'gobCL_Regular';*/
+	font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    background: #3bafe2;
+	margin-left:20px;
+}
+
+h3.pestana {
+    margin-left: 664px;
+}
+
+header h4{
+    width: 260px;
+    height: 35px;    
+    padding: 2px 40px 0 0;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    color: #999;
+    border-bottom: 1px solid #CCC;
+    background: url(../images/iconUser.png)no-repeat right;
+    margin: 0px;
+    text-decoration: none;
+}
+
+header h6{
+    font-family: 'gobCL_Regular';
+    font-size: 20px;
+    color: #333;
+}
+
+/*******************************************************************
+* Label
+*******************************************************************/
+label{
+    width: 100%;
+	font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    color: #999;
+}
+
+.radio{
+    width: 100%;
+    height: 30px;
+    line-break: 30px;
+    margin-top: 2px;
+    border: 1px solid #C6C6C6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.radio .radioIzq {
+    height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+
+.radio .radioDer{
+    height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+
+.radio .radioText{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    float: left;
+    font-family: 'gobCL_Regular';
+    font-size: 14px;
+    color: #777;
+}
+
+.text{
+    width: 100%;
+    height: 30px;
+    line-break: 30px;
+    margin-top: 2px;
+	height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    font-family: 'gobCL_Regular';
+    font-size: 14px;
+    color: #777;
+}
+/*******************************************************************
+* Fin Label
+*******************************************************************/
+
+/*******************************************************************
+* Input
+*******************************************************************/
+input, select {
+    width: 90%;
+    height: 30px;
+    margin-top: 2px;
+    padding: 0px 5px; 
+    border: 1px solid #C6C6C6;
+    font-family: 'gobCL_Regular';
+    font-size: 14px;
+    color: #777;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 100%;
+    margin-top: 2px;
+    padding: 0px 5px; 
+    border: 1px solid #C6C6C6;
+    font-family: 'gobCL_Regular';
+    font-size: 14px;
+    color: #777;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    resize: none;
+}
+
+input[type="radio"] {
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+    line-height: 28px;
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+}
+
+input[type="radio"]:focus {
+    border: none;
+    background: none;
+}
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    padding: 0px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: solid 1px #888888;
+    background: #f4f4f4;
+}
+
+input.campo-fecha {
+    background: url(../images/icon-calendar.png) no-repeat 5px 4px #f7f7f7;
+    padding-left: 35px;
+}
+
+input.campo-fecha:focus {
+    background: url(../images/icon-calendar.png) no-repeat 5px 4px #f4f4f4;
+}
+
+input.campo-password {
+    background: url(../images/icon/iconCerrar.png) no-repeat 5px 4px #f7f7f7;
+    padding-left: 35px;
+}
+
+input.campo-password:focus {
+    background: url(../images/icon/iconCerrar.png) no-repeat 5px 4px #f4f4f4;
+}
+
+input.campo-usuario {
+    background: url(../images/icon/loginUser.png) no-repeat 5px 4px #f7f7f7;
+    padding-left: 35px;
+}
+
+input.campo-usuario:focus {
+    background: url(../images/icon/loginUser.png) no-repeat 5px 4px #f4f4f4;
+}
+
+input.campo-file {
+    background: url(../images/icon/iconSubir.png) no-repeat 5px 4px #f7f7f7;
+    padding-left: 35px;
+}
+
+.boton:focus {
+    background: #FE9A2E;
+    border: none;
+}
+
+.boton_limpiar:focus {
+    background: #FE9A2E;
+    border: none;
+}
+
+.examinar:focus {
+    background: #FE9A2E;
+    border: none;
+}
+
+.invertir{
+    background: #FFF;
+}
+
+input[disabled]{
+    border: none;
+}
+
+/*******************************************************************
+* Fin Input
+*******************************************************************/
+
+table{
+    border: 0px solid #f0f8fc;
+}
+table tr td{
+    height: 32px;
+	padding: 5px 0px;
+}
+
+.pickList{
+    padding-bottom: 20px;
+    width: 796px;
+    margin: 0 auto;
+}
+.caja{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    padding-top: 33px;
+}
+.caja-pestana{
+    width: 1004px;
+}
+.caja2{
+    width: 1040px;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+}
+.caja-sin-borde {
+    border-top: none;
+}
+
+.caja-sin-margen {
+    margin-top: 0px;
+    padding-top: 1px;
+}
+
+.errores {
+    color: #ff0000 !important;
+    font-size: 13px !important;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    background-color: #FFFFD7;
+    color: #2571B7;
+    padding: 5px;
+}
+
+/************************************************************* Link *****************************************************************/
+
+a { text-decoration:none }
+
+/*******************************************************************
+* Inicio Íconos
+*******************************************************************/
+.ver{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+	vertical-align:middle;
+    background: url(../images/icon/iconVer.png)no-repeat;
+	background-size:20px;
+}
+.ver:hover{
+    opacity: 0.7;
+}
+
+.editar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconEditar.png)no-repeat;
+	background-size:20px;
+}
+.editar:hover{
+    opacity: 0.7;
+}
+
+.pdf{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconPdf.png)no-repeat;
+	background-size:20px;
+}
+.pdf:hover{
+    opacity: 0.7;
+}
+
+.bloquear{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconUnLock.png)no-repeat;
+	background-size:20px;
+}
+.bloquear:hover{
+    opacity: 0.7;
+}
+
+.desbloquear{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconLock.png)no-repeat;
+	background-size:20px;
+}
+.desbloquear:hover{
+    opacity: 0.7;
+}
+
+.expandir{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconExpandir.png)no-repeat;
+	background-size:20px;
+}
+.expandir:hover{
+    opacity: 0.7;
+}
+
+.contraer{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconContraer.png)no-repeat;
+	background-size:20px;
+}
+.contraer:hover{
+    opacity: 0.7;
+}
+
+.documentos{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconDocumentos.png)no-repeat;
+	background-size:20px;
+}
+.documentos:hover{
+    opacity: 0.7;
+}
+
+.cargar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconCloudSubir.png)no-repeat;
+	background-size:20px;
+}
+.cargar:hover{
+    opacity: 0.7;
+}
+
+.descargar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconCloudBajar.png)no-repeat;
+	background-size:20px;
+}
+.descargar:hover{
+    opacity: 0.7;
+}
+
+.error{
+    width: /*20px*/90%;
+    height: 30px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    /*background: url(../images/icon/iconError.png)no-repeat;*/
+	background-size:20px;
+	color:#F00;
+}
+.error:hover{
+    opacity: 0.7;
+}
+
+.eliminar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconEliminar.png)no-repeat;
+	background-size:20px;
+}
+.eliminar:hover{
+    opacity: 0.7;
+}
+
+.aviso{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconExclamacion.png)no-repeat;
+	background-size:20px;
+}
+.aviso:hover{
+    opacity: 0.7;
+}
+
+.correcto{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconCorrecto.png)no-repeat;
+	background-size:20px;
+}
+.correcto:hover{
+    opacity: 0.7;
+}
+
+.agregar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconAdd.png)no-repeat;
+	background-size:20px;
+}
+.agregar:hover{
+    opacity: 0.7;
+}
+
+.informacion{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconQuestion.png)no-repeat;
+	background-size:20px;
+}
+.informacion:hover{
+    opacity: 0.7;
+}
+
+.semaforoAzul{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconBlue.png)no-repeat;
+	background-size:30px;
+}
+.semaforoVerde{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconGreen.png)no-repeat;
+	background-size:30px;
+}
+.semaforoAmarillo{
+     width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconYellow.png)no-repeat;
+	background-size:30px;
+}
+.semaforoRojo{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+    background: url(../images/icon/iconRed.png)no-repeat;
+	background-size:30px;
+}
+
+.primero{
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+	vertical-align:middle;
+    background: url(../images/pre2.png)no-repeat;
+}
+.primero:hover{
+    opacity: 0.7;
+}
+
+.ultimo{
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+	vertical-align:middle;
+    background: url(../images/sig2.png)no-repeat;
+}
+.ultimo:hover{
+    opacity: 0.7;
+}
+
+.anterior{
+    width: 10px;
+    height: 14px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+	vertical-align:middle;
+    background: url(../images/pre1.png)no-repeat;
+}
+.anterior:hover{
+    opacity: 0.7;
+}
+
+.posterior{
+    width: 10px;
+    height: 14px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+	vertical-align:middle;
+    background: url(../images/sig1.png)no-repeat;
+}
+.posterior:hover{
+    opacity: 0.7;
+}
+
+.ir{
+    width: 10px;
+    height: 14px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+	vertical-align:middle;
+    background: url(../images/iconVer.png)no-repeat;
+}
+.ir:hover{
+    opacity: 0.7;
+}
+
+.btn_paginador
+{
+padding:2px;
+cursor:pointer;
+background: url(../images/icon/iconVer.png)no-repeat;
+}
+/*******************************************************************
+* Fin Íconos
+*******************************************************************/
+
+.btn-first-record{
+    width: 12px;
+    height: 14px;
+    margin-left: 15px;
+    display: block;
+    float: left;
+    background: url(../images/pre2.png)no-repeat;
+}
+.btn-first-record:hover{
+    opacity: 0.7;
+}
+.btn-previous-record{
+    width: 7px;
+    height: 14px;
+    margin-left: 15px;
+    display: block;
+    float: left;
+    background: url(../images/pre1.png)no-repeat;
+}
+.btn-previous-record:hover{
+    opacity: 0.7;
+}
+.btn-next-record{
+    width: 7px;
+    height: 14px;
+    margin-left: 15px;
+    display: block;
+    float: left;
+    background: url(../images/sig1.png)no-repeat;
+}
+.btn-next-record:hover{
+    opacity: 0.7;
+}
+.btn-last-record{
+    width: 12px;
+    height: 14px;
+    margin-left: 15px;
+    display: block;
+    float: left;
+    background: url(../images/sig2.png)no-repeat;
+}
+.btn-last-record:hover{
+    opacity: 0.7;
+}
+.btn-ordenamiento-asc {
+    width: 14px;
+    height: 7px;
+    background: url(../images/asc.png)no-repeat;
+}
+.btn-ordenamiento-asc:hover {
+    opacity: 0.7;
+}
+.btn-ordenamiento-desc {
+    width: 14px;
+    height: 7px;
+    background: url(../images/desc.png)no-repeat;
+}
+.btn-ordenamiento-desc:hover {
+    opacity: 0.7;
+}
+
+.boton{
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    background: #FF8000;
+    float: right;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.boton:hover{
+    background: #FE9A2E;
+}
+
+.boton_limpiar{
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    background: #FF8000;
+    float: left;
+    width: 26%;
+    height: 30px;
+    line-height: 30px;  
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 13px;
+    text-align: center;
+}
+.boton_limpiar:hover{
+    background: #FE9A2E;
+}
+
+.boton_volver{
+ color: #FFF;
+    border: none;
+    cursor: pointer;
+    background: #FF8000;
+    float: left;
+    width: 27%;
+    height: 30px;
+    line-height: 30px;  
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.boton_volver:hover{
+    background: #FE9A2E;
+}
+
+.examinar{
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    background: #FF8000;    
+    float: right;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;  
+    margin-top: 1px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.examinar:hover{
+    background: #FE9A2E;
+}
+
+/*******************************************************************
+* Menú Extra
+*******************************************************************/
+.menuExtra{
+    width: 200px;
+    margin: 10px 0 0 1050px /*960px*/;
+    position: absolute;
+}
+.menuExtra a {
+    cursor: pointer;
+}
+
+.menuExtra .agregarTop{
+    width: 42px;
+    height: 42px;
+    margin-left: 20px;
+    float: right;
+    display: block;
+    background: url(../images/icon/iconAgregarTop.png)no-repeat;
+}
+.menuExtra .agregarTop:hover{
+    background-position: 0 bottom;
+}
+.menuExtra .exportarTop{
+    width: 42px;
+    height: 42px;
+    margin-left: 20px;
+    float: right;
+    display: block;
+    background: url(../images/icon/iconExportarTop.png)no-repeat;
+}
+.menuExtra .exportarTop:hover{
+    background-position: 0 bottom;
+}
+/*******************************************************************
+* Fin Menú Extra
+*******************************************************************/
+
+div#footer-wrapper {
+    width: 100%;
+    padding-top: 30px;
+}
+
+div#footer-wrapper div#footer {
+    width: 1200px;
+    height: 21px;
+    margin: 0 auto;
+}
+
+div#footer-wrapper div#footer div#footer-flag {
+    width: 191px;
+    height: 21px;
+    background: url(../images/footer-flag.png) no-repeat;
+}
+
+/***************************************************
+----- ESCRITORIO "WEB SITE 1126px -----
+****************************************************/
+/*@media screen and (min-width: 1126px) {*/
+
+    /*************************** HEADER */
+    header{
+        border-top: 22px solid #ffffff;
+    }
+    header .contenedor{
+        width: 1200px;
+        height: 180px;
+        margin: 0 auto;
+    }
+    header .contenedor .logo{
+        width: 190px;
+        height: 172px;
+        margin-top: -22px;
+        float: left;
+    }
+    header .contenedor .logo a{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: url(../images/logo.png);
+    }
+
+    header .contenedor .tituloSistema{
+        width: 590px;
+        height: auto;
+        margin: 12px 0 0 30px;
+        float: left;
+    }
+    header .contenedor .tituloSistema span{
+        font-family: 'gobCL_Regular';
+        font-size: 14px;
+        color: #999;
+    }
+
+    header .contenedor .infoUser{
+        width: 260px;
+        height: 158px;
+        float: right;
+    }
+    header .contenedor .infoUser .nombre{
+        margin-top: 8px;
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+        font-size: 18px;
+        color: #333;
+    }
+    header .contenedor .infoUser .area{
+        margin-top: 0px;
+        text-align: right;
+        font-family: 'gobCL_Regular';
+        font-size: 15px;
+        color: #b3b3b3;
+    }
+    header .contenedor .infoUser .perfil{
+        margin-top: 0px;
+        text-align: right;
+        font-family: 'gobCL_Light';
+        font-size: 15px;
+        color: #b3b3b3;
+    }
+    header .contenedor .infoUser .cerrarSesion{
+        margin-top: 30px;
+        text-align: right;
+    }	
+    header .contenedor .infoUser .cerrarSesion a {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        margin-left: 5px;
+        opacity: 0.3;
+    }
+    header .contenedor .infoUser a#cambio-pass {
+        background: url("../images/icon-change-pass.png") no-repeat;
+    }
+    header .contenedor .infoUser .cerrarSesion a#logout {
+        background: url("../images/icon-logout.png") no-repeat;
+		float:right;
+    }
+    header .contenedor .infoUser .cerrarSesion a:hover{
+        opacity: 0.4;
+    }
+
+    /*************************** MENU */
+    nav{
+
+    }
+    nav .contenedor{
+        width: 1210px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #a5a5a5;
+    }
+    nav .contenedor .menu{
+        display: block;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+		
+    }
+    nav .contenedor .menu li{
+        display: inline-block;
+        position: relative;
+        z-index: 100;
+        height: 46px;
+    }
+    nav .contenedor .menu li a {
+        padding: 0px 25px;
+        text-decoration: none;
+        font-family: 'gobCL_Regular';
+        font-size: 16px;
+        color: #FFF;
+        font-weight:normal;
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+    }
+    nav .contenedor .menu li a:hover, .menu li:hover > a{
+        color: #ffffff;
+        background: #b7b6b6;
+    }
+	
+	/**************Sub Menu*****************/
+	
+	nav{
+
+    }
+    nav .contenedor2{
+        width: 1210px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #c6c6c6;
+    }
+    nav .contenedor2 .menu_sub{
+        display: block;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+		
+    }
+    nav .contenedor2 .menu_sub li{
+        display: inline-block;
+        position: relative;
+        z-index: 100;
+        height: 46px;
+    }
+    nav .contenedor2 .menu_sub li a {
+        padding: 0px 25px;
+        text-decoration: none;
+        font-family: 'gobCL_Regular';
+        font-size: 16px;
+        color: #FFF;
+        font-weight:normal;
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+    }
+    nav .contenedor2 .menu_sub li a:hover, .menu_sub li:hover > a{
+        color: #ffffff;
+        background: #b7b6b6;
+    }
+	
+	/*Menu Horizatal*/
+	
+	#menu2 {
+        border: 1px solid #A5A5A5;
+        border-width: 1px 1px 0 1px;
+        width: 178px;
+        /*font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+}
+#menu2 ul, li {
+        list-style-type: none;
+}
+
+#menu2 ul {
+        margin: 0;
+        padding: 0;
+}
+
+#menu2 li {
+        border-bottom: 1px solid #A5A5A5;
+		height:40px;
+}
+
+#menu2 a {
+        text-decoration: none;
+        color: #FFF;
+        background: #A5A5A5;
+        display: block;
+        padding: 10px 25px;
+        /*width: 136px;*/
+		
+		    text-decoration: none;
+    font-family: 'gobCL_Regular';
+    font-size: 16px;
+	height:50px;
+   
+    font-weight: normal;
+}
+
+#menu2 .seleccion{
+        font-weight:bold;
+		background-color:#faa732;
+		color:#FFFFFF;
+}
+
+#menu2 .seleccion:hover{
+        font-weight:bold;
+		background-color:#faa732;
+		color:#FFFFFF;
+}
+
+#menu2 a:hover {
+        background: #DBEBF6;
+}
+	/****/
+	
+    /* ocultar el menú de segundo nivel */
+    nav .contenedor .menu ul {
+        display: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        position: absolute;
+        top: 39px;
+        left: -3px;
+    }
+
+    /* mostrar menú de segundo nivel */
+    nav .contenedor .menu li:hover > ul{ 
+        display: block;
+    }
+    nav .contenedor .menu ul li {
+        text-align: left;
+        float: none;
+        background:none;
+        margin: 0px;
+        padding:0;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+    }
+    nav .contenedor .menu ul li a {
+        font-size:14px;
+        font-weight:normal;
+        display: inline-block;
+        color:#FFF;
+        border-left:3px solid #ffffff;
+        background:#b7b6b6;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 5px;
+    }
+    nav .contenedor .menu ul li a:hover, .menu ul li:hover > a{
+        background:#f0f0f0;
+        border-left:3px solid #136cb8;
+        color:#797979;
+    }
+    /* Cambio de nivel 3 posiciones de menú */
+    nav .contenedor .menu ul ul {left: 149px;
+                                 top: 0px;
+    }
+
+    /*************************** SECTION - Cronograma de Tarea */
+    section .contenedor{
+        width: 1200px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+.semilla a:hover {
+    text-decoration: underline;
+}
+.semilla a:visited, .breadcrumb a:active {
+    font: 11px/140% Verdana, Helvetica, sans-serif;
+}
+
+.semilla a {
+    text-decoration: none;
+    color: #FF6600;
+    font: 11px/140% Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/*}*/
+
+/***************************************************
+----- NOTEBOOKS TABLETS 1024px -----
+****************************************************/
+/*
+@media screen and (max-width: 1024px) {
+
+}
+*/
+
+/***************************************************
+----- NOTEBOOKS TABLETS 768px -----
+****************************************************/
+/*
+@media screen and (max-width: 768px) {
+
+}
+*/
+
+/***************************************************
+----- SMART PHONES "MOBILE SITE 480px-----
+****************************************************/
+/*
+@media screen and (max-width: 480px) {
+
+}
+*/
+
+/***************************************************
+----- SMART PHONES "MOBILE SITE 320px-----
+****************************************************/
+/*
+@media screen and (max-width: 320px) {
+
+}
+*/
+
+input#rut_user {
+    background: url("../images/icon/loginUser.png") 5px 4px no-repeat #ffffff;
+	padding-left: 30px;
+}
+
+input#clave {
+    background: url("../images/icon/iconCerrar.png") 5px 4px no-repeat #ffffff;
+	padding-left: 30px;
+}
+
+img
+{
+  border:0;
+}
+
+#rigth{
+	width: 84%;
+    float: right;
+	margin-top:5px;
+}
+
+#left{
+	float: left;
+    /*width: auto;*/
+	width: 15%;
+    overflow: hidden;
+	/*position:fixed;*/
+	margin-top:5px;
+	margin-left:2px;
+}
+
+.tabla_chk_asset{
+	border-collapse: collapse;
+	border: 1px solid black;
+	border-color:#CCCCCC;
+	width: 100%;
+	font-family: 'gobCL_Regular';
+    font-size: 13px;
+    color: #999;
+	}
+	
+.centrar_td{text-align:center; padding:2px;}
+
+#close-date {
+	cursor: pointer;
+}
+
+.class_text_color{
+	color:#ffffff;
+}

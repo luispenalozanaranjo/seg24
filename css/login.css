@@ -1,0 +1,202 @@
+body {
+    background: #ffffff;
+}
+
+div.break {
+    width: 0px;
+    height: 0px;
+    clear: both;
+}
+
+div#barra-login {
+    width: 100%;
+    height: 354px;
+    position: absolute;
+    top: 50%;
+    margin-top: -177px;
+    background: #f7f7f7;
+    border-top: solid 2px #cccccc;
+    border-bottom: solid 2px #cccccc;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+div#barra-login div#login-wrapper {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-logo {
+    width: 191px;
+    height: 174px;
+    background: url("../images/logo.png");
+    float: left;
+    margin-top: -1px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login {
+    width: 420px;
+    float: right;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login p {
+    margin: 0px;
+    color: #666666;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login p.info {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login p#titulo {
+	font-family: Arial, Verdana;
+    font-size: 30px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login p#subtitulo {
+	font-family: Arial, Verdana;
+    font-size: 20px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form {
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.left {
+    float: left;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.right {
+    float: right;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo label {
+    margin: 0px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo input {
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 2px;
+    border: solid 1px #cccccc;
+    background: #ffffff;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo input:focus {
+    border: solid 1px #999999;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo input#rut_user {
+    background: url("../images/icon/loginUser.png") 5px 4px no-repeat #ffffff;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo input#clave {
+    background: url("../images/icon/iconCerrar.png") 5px 4px no-repeat #ffffff;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo img#captcha {
+    width: 170px;
+    height: 54px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div.contenedor-campo img#refresh-captcha {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    top: -16px;
+    margin-left: 5px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form div#contenedor-errores {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form input.boton {
+    width: 130px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 30px;
+    left: auto;
+    float: right;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form input#btn-login {
+    margin-top: 60px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form input#btn-captcha {
+    margin-top: 15px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form a#volver {
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-left: 15px;
+    background: url("../images/pre1.png") no-repeat left center;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form input#btn-new-pass {
+    margin-top: 20px;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form a.link {
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777777;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form a#recPass {
+    float: right;
+}
+
+div#barra-login div#login-wrapper div#contenedor-login form#form a.link:hover {
+    color: #333333;
+    cursor: pointer;
+}
+
+.posicion_mensaje{
+	position: relative;
+	top: 90%;
+    left: 20px; 
+	width:95%; 
+	font-family: Arial, Verdana;
+	font-size: 13px;
+	color: #999;
+}
+
+div.footer {
+    width: 100%;
+                position: absolute;
+                top: 90%;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 10px;
+                color: #333;
+    text-align: justify;
+}

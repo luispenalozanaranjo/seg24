@@ -1,0 +1,165 @@
+/****************************************************************************************************
+* Grilla
+*****************************************************************************************************/
+div#grilla {
+    width: 100%;
+    height: auto;
+	margin: 0px 0px;
+    display: block;
+}
+
+div#grilla div#contenedor-parametros {
+    display: none;
+    border: none;
+}
+
+/****************************************************************************************************
+controles
+*****************************************************************************************************/
+div#grilla div.controles {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+div#grilla div.controles div label {
+    display: inline;
+    margin: 0px;
+    font-size: 13px;
+}
+
+div#grilla div.controles div select {
+    width: 60px;
+    height: 25px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+div#grilla div.controles div select option {
+    padding: 0px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+div#grilla div.controles div a {
+    float: none;
+    display: inline-block;
+    margin: 0px 5px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+div#grilla div.controles div.left {
+    float: left;
+}
+
+div#grilla div.controles div.right {
+    float: right;
+    margin-left: 30px;
+}
+
+
+/****************************************************************************************************
+* Tabla
+*****************************************************************************************************/
+div#grilla table#base {
+   	width: 100%;
+    height: auto;
+    border: none;
+    margin: 0px 0px;
+}
+
+div#grilla table#base tr {
+    height: 35px;
+    background: #ffffff;
+}
+
+div#grilla table#base tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+div#grilla table#base tr.cabecera {
+    height: 40px;
+    text-align: center;
+    /*font-family: 'gobCL_Regular';*/
+	font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background: #1d9eff;
+}
+
+div#grilla table#base tr.cabecera td {
+    text-align: center;
+	cursor: pointer;
+}
+
+div#grilla table#base tr td.total {
+	color:#000;
+	background-color:#F5F5F5;
+}
+
+div#grilla table#base tr.cabecera td a.btn {
+    width: 14px;
+    height: 7px;
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    margin-top: -3px;
+}
+
+div#grilla table#base tr.cabecera td a.btn:hover {
+    cursor: pointer;
+}
+
+div#grilla table#base tr.cabecera td a.label {
+    margin-left: 16px;
+    display: block;
+    text-align: center;
+    line-height: 16px;
+}
+
+div#grilla table#base tr.cabecera td.active {
+    text-decoration: underline !important;
+}
+
+div#grilla table#base tr td {
+    padding: 0px 5px;
+    width: auto;
+	text-align: left;	
+}
+
+div#grilla table#base tr.contenido:hover {
+    padding: 0px 5px;
+    width: auto;
+	background: #EBEBEB;
+}
+
+div#grilla table#base tr td.columna-botones {
+    text-align: center;
+    width: 90px;
+  background: inherit;
+  height: inherit;
+  vertical-align: inherit;
+  padding-top: 10px;
+  margin-left: -90px;
+}
+
+div#grilla table#base tr.contenido td.columna-botones a {
+    float: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+div#grilla table#base tr.contenido td.columna-botones a:hover {
+    cursor: pointer;
+}
+
+div#grilla table#base tr.contenido td.columna-botones a:first-child {
+    margin-left: 0px;
+}
+
+.alinear_tabla{text-align:center; padding:2px;}
